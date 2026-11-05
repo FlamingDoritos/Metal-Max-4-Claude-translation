@@ -5,7 +5,7 @@ It was made with the Azahar emulator in mind, but in the README made by Claude t
 
 HOW TO INSTALL
 1. Open the emulator, right click the game then choose "Open" -> "Mods location". This will create a mod folder for the game to place the translation.
-2. Extract the "romfs" file and "code.ips" into the mod folder.
+2. Extract the "romfs" file and "code.ips" from the "Translation mod" folder into the emulator's mod folder.
 3. Enjoy!
 
 Note that the open-source Barlow Condensed font is being used for some stuff, so I'm crediting them for helping Claude out.
