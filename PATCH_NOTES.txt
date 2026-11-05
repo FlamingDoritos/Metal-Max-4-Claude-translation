@@ -1,0 +1,124 @@
+Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
+==========================================================================
+Version: 0.8.5 (unofficial fan translation) - 100% of the game's text strings
+Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
+
+This is a LayeredFS mod: it does not modify your ROM file. The folder
+"00040000000AFD00" contains a replacement "romfs" folder and a "code.ips"
+patch for the game's executable.
+
+WHAT'S TRANSLATED
+- Every text string in the game: all dialogue, menus, item / weapon /
+  armor / tank-part names, monster names, map & location names,
+  battle and system messages, skill names, shop names, help texts.
+- Item descriptions and skill descriptions (shop, equipment and
+  skill screens).
+- The in-game Guide: every quest objective and quest description.
+- WANTED monster info, bar rumors, Hunter Office special requests,
+  quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.8.5
+- Equipment screen column headers translated (Weapon / Elem. / Attack /
+  Range, Armor / Defense, Head/Body/Arm/Leg Armor, Accessory, C-Unit,
+  Engine / Load, Hole 1-6 incl. Cannon / MG / S-E variants).
+
+CHANGES IN 0.8.4
+- Reverted the 0.8.3 letter redesign: the game's own small font is back.
+- Letter spacing now follows each letter's visible edge (half-strength ink)
+  instead of its faintest anti-aliasing pixels, so letters with soft edges
+  (A, a, d, t, v, y, ...) no longer look shifted. Lines on the title menu
+  now start at the same position and words read evenly.
+
+CHANGES IN 0.8.2
+- English letters now share one baseline: removed faint anti-aliasing pixels
+  below the baseline on round letters (a, e, o, u, ...) that made them look
+  lower than their neighbours, most visibly on the enlarged title menu.
+
+CHANGES IN 0.8.1
+- Even letter spacing in English text: every Latin letter of the game's two
+  text fonts now has the same spacing (fixes gaps like "Adventur e" on the
+  title menu and uneven letters elsewhere).
+
+CHANGES IN 0.8
+- Menu graphics translated: status panels (Next LV, Booster Points,
+  Battle LV, Drive LV, Strength, Vitality, Speed, Manliness / Coat, Scars),
+  class name plates, equipment slot tags (Wpn1-3, Head, Body, Arms, Legs,
+  Acc., Chassis, C-Unit, Engine, Hole 1-6), weapon range labels, stat
+  tabs, skill category tags, weight / bonus / mod-value bars, button
+  hints (Confirm, Back, Sort, Info ON/OFF, To Items, ...), menu title
+  strip, board/exit/tow options, Elemental Defense header, booster point
+  captions, threat badges, "Can't move!" warning, Defeat Index header and
+  the town-name tags on the Guide maps.
+
+CHANGES IN 0.7
+- Field menu and battle command buttons are now in English (Items, Equip,
+  Stats, Dog, Quick, Skills, Guide, Board, Record, Tank, Member, Party,
+  Boost, Chassis / Attack, Skill, Item, Flee, Guard, Cover, Other, Pochi,
+  Config). Labels use Barlow Condensed (SIL Open Font License).
+
+CHANGES IN 0.6.2
+- Wanted-poster names: letters no longer lose their top edge (the game
+  clips the top row and left column of each character cell).
+
+CHANGES IN 0.6.1
+- Fixed wanted-poster letters missing their left edge (S, P, M, etc.).
+
+CHANGES IN 0.6
+- Wanted posters now show bounty names in English. The poster font only
+  had the katakana used by the Japanese names, so English names showed up
+  blank (or as a stray "r"). It now has a full Latin character set.
+
+CHANGES IN 0.5
+- Translated all ~2,200 item descriptions (tools, Space Dolls, armor,
+  weapons, engines, C-Units, cannons, machine guns, S-E, fixed weapons).
+- Translated all ~550 skill descriptions.
+- Translated the full in-game Guide (about 800 quest objectives and
+  descriptions).
+
+CHANGES IN 0.4
+- Finished all remaining dialogue (Iron Crown, the Dandelion Gang
+  orphanage, the gunfighters' Skull Gate, Finger Plaza, Aida's trading
+  post, the bee tanker, Pyramid Power lab, Spy Tree, Noah, and more).
+- Translated WANTED info, bar rumors, special requests, quest titles
+  and rental tank menus.
+- Consistency fixes: "tank" used for all vehicles, Dr. Mince's name,
+  Smoke Can vs. Flare items.
+
+CHANGES IN 0.3
+- Added the Dam, Never Resort, La Tour interior and the main story's
+  final stretch, Four Gates, Space Garden, Marde hideout, Grape Hall,
+  Darmas Temple, Zonderella Castle sidequests and all field events.
+
+CHANGES IN 0.2
+- Added Belle Epo, Amidarama, Unga Unga, Human Zoo, the sushi castle
+  town and Zonderella Castle story text (about 60,000 more characters).
+
+KNOWN LIMITATIONS
+- A few labels are still Japanese: the title logo, the copyright notice at boot, the in-world terminal
+  screens (bridge / lift / security / power controls), lottery
+  graphics and the "PAID" stamp on cleared wanted posters.
+- The opening movie's song lyrics are burned into the video.
+- Name entry keeps the Japanese keyboard. The default name "Hinata" works.
+
+INSTALL - AZAHAR / CITRA (PC, Android)
+1. Right-click the game in the game list > "Open Mods Location"
+   (Android: long-press the game > Open Mods Location).
+2. Copy the CONTENTS of "00040000000AFD00" (the "romfs" folder and
+   "code.ips") into that folder. You should end up with:
+      .../load/mods/00040000000AFD00/romfs/...
+      .../load/mods/00040000000AFD00/code.ips
+3. Start the game.
+
+INSTALL - REAL 3DS WITH LUMA3DS
+1. Copy the "00040000000AFD00" folder to your SD card as:
+      SD:/luma/titles/00040000000AFD00/romfs/...
+      SD:/luma/titles/00040000000AFD00/code.ips
+2. Hold SELECT while powering on to open Luma's config and make sure
+   "Enable game patching" is checked.
+3. Start the game.
+
+IMPORTANT
+- Start a NEW GAME, or load a normal in-game save. Do NOT use emulator
+  save states made with an older version of the patch: the game caches
+  dialogue in memory, and old states show garbled or mismatched text.
+- To uninstall, delete the 00040000000AFD00 mod folder.
