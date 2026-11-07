@@ -2,6 +2,7 @@
 A translation mod for the 3DS Metal Max 4: The Diva of Moonlight made with Claude Opus 5.5, this does not contain a copy of the game itself.
 There is still works to do, such as minor stuff in menus being untranslated, animated cutscenes lacking subtitles and some text going past the text box with more for me to find out BUT the game should be fully playable.
 It was made with the Azahar emulator in mind, but in the README made by Claude there are instruction on how to install it in a real 3DS console (I would advice against it, as it is not complete and I haven't tested it myself)
+WARNING: Do NOT use Save State! If you do there's a good chance the game will freeze upon loading a save state! Save regularly!
 
 HOW TO INSTALL
 1. Open the emulator, right click the game then choose "Open" -> "Mods location". This will create a mod folder for the game to place the translation.
