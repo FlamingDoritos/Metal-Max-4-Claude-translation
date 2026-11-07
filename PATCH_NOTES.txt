@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.8.5 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.8 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,51 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.8
+- The copyright notice shown at boot (bottom screen) is now in English.
+
+CHANGES IN 0.9.7
+- Bottom-screen town maps: the place name is now vertically centred on its
+  plate (level with the bullet), on all 13 maps.
+
+CHANGES IN 0.9.6
+- Skills list: unlearned skills now say "Learn Lv7" etc. instead of Japanese.
+
+CHANGES IN 0.9.5
+- Guide > Help: About Traits / About Elements texts now fit their 3-line box.
+- Guide > System > Item Bag Customize: options shortened to Top / Bottom /
+  In gap so they no longer overlap.
+- Translated the remaining Japanese headers: "About Skills" (Help list) and
+  "This Week's Target:" (Record screen).
+
+CHANGES IN 0.9.4
+- Guide menu: the "m" option is now "System". The game reused the end of
+  "Dog System" for this label; all 65 places where the game reuses the end
+  of a longer label were fixed the same way (e.g. "Wizard", "Engine",
+  "C-Unit", "Coat", "Weapon Shop", "Item Shop", "Gear Shop", "None").
+
+CHANGES IN 0.9.3
+- "Kadorus" renamed "Kadrus" to match the name carved on his grave.
+
+CHANGES IN 0.9.2
+- Tutorial: Sasha now calls the item "Swim Potato" everywhere (some lines
+  said "Swimming Taro").
+
+CHANGES IN 0.9.1
+- Accented letters: removed a stray faint line above accented E/A/O...,
+  and centred the accents exactly over A, I and the other letters.
+
+CHANGES IN 0.9
+- Name entry now supports English letters. The keyboard's mode buttons are
+  relabelled 123 / ABC / abc / Sym:
+    ABC: capital letters A-Z, plus - ' . and a space
+    abc: lowercase a-z, accented letters in both cases
+         (à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø œ ù ú û ü ý ÿ ß
+          and their capitals), digits 0-9 and & ! ? ( ) # - ' .
+  Names are still limited to 5 characters, as in the original game.
+- Accented letters were added to the game's fonts (built from the game's
+  own letter shapes), so they show up everywhere the name is displayed.
 
 CHANGES IN 0.8.5
 - Equipment screen column headers translated (Weapon / Elem. / Attack /
@@ -94,11 +139,10 @@ CHANGES IN 0.2
   town and Zonderella Castle story text (about 60,000 more characters).
 
 KNOWN LIMITATIONS
-- A few labels are still Japanese: the title logo, the copyright notice at boot, the in-world terminal
+- A few labels are still Japanese: the title logo, the in-world terminal
   screens (bridge / lift / security / power controls), lottery
   graphics and the "PAID" stamp on cleared wanted posters.
 - The opening movie's song lyrics are burned into the video.
-- Name entry keeps the Japanese keyboard. The default name "Hinata" works.
 
 INSTALL - AZAHAR / CITRA (PC, Android)
 1. Right-click the game in the game list > "Open Mods Location"
