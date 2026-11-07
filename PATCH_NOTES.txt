@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.8 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.9 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,12 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.9
+- Character names can now be up to 8 letters (was 5). The default name
+  "Hinata" now fits in full. Because the save file reserves 15 bytes for a
+  name, a name made of 8 accented letters is limited to 7 (the keyboard
+  beeps if a letter doesn't fit).
 
 CHANGES IN 0.9.8
 - The copyright notice shown at boot (bottom screen) is now in English.
@@ -58,7 +64,6 @@ CHANGES IN 0.9
     abc: lowercase a-z, accented letters in both cases
          (à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô õ ö ø œ ù ú û ü ý ÿ ß
           and their capitals), digits 0-9 and & ! ? ( ) # - ' .
-  Names are still limited to 5 characters, as in the original game.
 - Accented letters were added to the game's fonts (built from the game's
   own letter shapes), so they show up everywhere the name is displayed.
 
