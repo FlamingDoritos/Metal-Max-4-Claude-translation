@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.10 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.13 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,25 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.13
+- English subtitles for the animated cutscene at the Sandelize fountain
+  (thugs harass a girl who turns out to be a Moonlight bounty hunter;
+  romfs/movie/mm4-s06.moflex). Made the same way as in 0.9.12.
+
+CHANGES IN 0.9.12
+- English subtitles for the animated cutscene where Gomodo attacks the
+  island (romfs/movie/mm4-s03.moflex). The Japanese dialogue was
+  transcribed with speech recognition, checked against the picture and
+  translated; the video was re-encoded with the subtitles burned in using
+  mobipeg (https://github.com/quatric/mobipeg). The other cutscenes are
+  still unsubtitled.
+
+CHANGES IN 0.9.11
+- Gib on the lookout tower: when asked "What are you doing?", he now
+  answers "Oh, y'know. This and that." (was "Yeah. Just a little
+  something."). The Japanese line (うん。ちょっとな。) is a vague
+  brush-off; another reading considered was "Mm. Nothing much."
 
 CHANGES IN 0.9.10
 - Library scene at the start of the game (choosing a book for Gib):
