@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.9 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.10 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,16 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.10
+- Library scene at the start of the game (choosing a book for Gib):
+  - The lines naming the book no longer run past the text box; the title
+    now sits on its own line.
+  - Book excerpts read as one quotation: the opening quotation mark is on
+    the first page and the closing one on the last page, instead of an
+    opening mark on every page and none at the end. Quotes inside an
+    excerpt use single quotation marks.
+  - Every page of the excerpts and back covers fits in the box.
 
 CHANGES IN 0.9.9
 - Character names can now be up to 8 letters (was 5). The default name
