@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.19 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.29 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,56 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.29
+- Sasha's reply when you bring the Swim Potatoes now says "potatoes"
+  instead of "taros", matching the item name.
+
+CHANGES IN 0.9.28
+- Rope ladder on Tower Island: the choice now reads "Climb down" instead
+  of "Get off" (the Japanese word means both; "Get off" stays for vehicles).
+
+CHANGES IN 0.9.27
+- Fonts: the "~" is lowered to the middle of the line (level with "-"),
+  so it reads like a wave dash ("that song~") instead of floating up like
+  an accent. Applies to all three game fonts.
+
+CHANGES IN 0.9.26
+- Adv. Guide: quest objectives are no longer split over two lines (the
+  second line used to overlap the next objective). Every objective fits
+  on its single line.
+
+CHANGES IN 0.9.25
+- The one-line prompt "Check the map on the bottom screen." was too long
+  for its box, so "screen" dropped below it. It now reads "Check the
+  bottom screen map." and fits on one line.
+
+CHANGES IN 0.9.24
+- Human weapon info panel: the Range value ("1 Enemy") is moved right so
+  it lines up with the Attack number above it.
+
+CHANGES IN 0.9.23
+- Armor info panel: the Defense and Attack values are moved to the right
+  (in line with the element-defense numbers below), so the full label
+  "Defense:" is back and no longer overlaps the number. Layout change is
+  in romfs/menu/menu.dat.
+
+CHANGES IN 0.9.22
+- Equipment info panel: "Defense" is shortened to "Def.:" so it no longer
+  runs into the number, and "Range:" / "Elem.:" lose the stray space
+  before the colon.
+
+CHANGES IN 0.9.21
+- Guide > Help > About Tanks and About Classes: the text now uses the full
+  width of the box, so no page runs past the bottom any more.
+
+CHANGES IN 0.9.20
+- Data viewers: the button hints in Human Gear Data and Monster Data are
+  translated (A:Action/Pose, X:Zoom in, Y:Zoom out, A:Action). These
+  strings sit inside the game's code and had been missed.
+- Also fixed in the same way: "Defeated at LV%u!", the "MG Data" title,
+  the "No mod" option, the DLC download prompt, and tank weights now use
+  a plain "t" instead of a full-width one.
 
 NOTE ON THE INTRO SONG (GitHub version)
 - The new-game intro in this repository (Translation mod/romfs/movie/
