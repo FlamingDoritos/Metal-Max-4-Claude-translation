@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.14 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.19 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,45 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+NOTE ON THE INTRO SONG (GitHub version)
+- The new-game intro in this repository (Translation mod/romfs/movie/
+  mm4-s01.moflex) is the repository owner's own version, with English
+  lyric subtitles they wrote and added on top of the lyric-free intro
+  from 0.9.19. The subtitles use the Patrick Hand font (SIL Open Font
+  License, see PatrickHand-OFL.txt), chosen to resemble the original
+  hand-lettered Japanese lyrics.
+- The patch zips made by Claude contain the 0.9.19 intro without lyrics.
+
+CHANGES IN 0.9.19
+- New-game intro: the lyric removal no longer guesses what is behind the
+  text. The beach drawings are reused in the ending flashback without
+  lyrics, so the real picture is copied from there (the hands holding the
+  shells are now intact). On the hero's eye close-up the fading text is
+  mathematically subtracted, and in the jungle shot the leaves are taken
+  from the same shot after the text has gone. No smudges or ghost letters
+  remain.
+
+CHANGES IN 0.9.18
+- New-game intro: the lyric cleanup on the beach shots now only replaces
+  the letters themselves, keeping the real picture between them, so the
+  girl's dress and legs are no longer stretched downward.
+
+CHANGES IN 0.9.17
+- New-game intro: the last lyric line no longer lingers as it fades out
+  over the first shot of the hero falling into the tree.
+
+CHANGES IN 0.9.16
+- New-game intro: cleaner removal of the Japanese lyrics over the beach
+  shots. The covered area is now filled in by an image-inpainting model
+  (LaMa) that rebuilds the sand, dress and hands behind the text, instead
+  of the smeared band left by 0.9.15.
+
+CHANGES IN 0.9.15
+- New-game intro (romfs/movie/mm4-s01.moflex): the burned-in Japanese song
+  lyrics are removed. Over the black screens the text is simply gone; over
+  the beach shots it is painted over, which can leave a faint smudge at the
+  bottom of the picture. The song itself is unchanged.
 
 CHANGES IN 0.9.14
 - English subtitles for every animated cutscene that has spoken dialogue
@@ -142,7 +181,8 @@ CHANGES IN 0.7
 - Field menu and battle command buttons are now in English (Items, Equip,
   Stats, Dog, Quick, Skills, Guide, Board, Record, Tank, Member, Party,
   Boost, Chassis / Attack, Skill, Item, Flee, Guard, Cover, Other, Pochi,
-  Config). Labels use Barlow Condensed (SIL Open Font License).
+  Config). Labels use Barlow Condensed (SIL Open Font License); the intro
+  lyric subtitles use Patrick Hand (SIL Open Font License).
 
 CHANGES IN 0.6.2
 - Wanted-poster names: letters no longer lose their top edge (the game
