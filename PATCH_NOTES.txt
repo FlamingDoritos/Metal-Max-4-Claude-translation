@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.37 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.38 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,17 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.38
+- Town-map pictures, second pass:
+  - Inn (宿): the house is now white.
+  - Medicine (薬): a white cross with equal arms.
+  - Car wash (洗) and Amida Water (水): the drop is redrawn so its tip sits
+    exactly in the middle of the box.
+  - Fill-up service (満): the jerry can now has a carry handle, a sloped
+    corner with an angled spout and cap, and a stamped X.
+  - Paint shop (塗): the spray can has a white cap and label, a collar, and
+    a fan of white paint mist from the nozzle.
 
 CHANGES IN 0.9.37
 - Town-map shop pictures redrawn to match the game's own picture icons
