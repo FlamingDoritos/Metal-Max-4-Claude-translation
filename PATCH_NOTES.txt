@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.41 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.42 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,20 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.42
+- Sausage Inn: when the girl sings "Song of Tomorrow" on the bed, the
+  lyrics now appear as subtitles, the same as in the new-game intro. They
+  disappear when the song ends or is skipped with A/B. (code.ips and
+  movie/subtitles.bin changed.)
+- Sasha's hug in the tutorial area: "Squeeeeze...." is now
+  "*Squeeeeze*....".
+- Sausage Inn landlady: "I'll fire this missile" is now "I'll fire this
+  missile launcher", since the keepsake she's aiming is the launcher.
+- Shops selling equipment for people (人間用品, as opposed to tank parts):
+  "We deal in goods for humans!" and the other wordings are now
+  "We sell gear for people, not tanks!" in every shop that uses this
+  greeting.
 
 CHANGES IN 0.9.41
 - Medicine (薬): both cross bars are now 4 pixels thick, and the vertical
