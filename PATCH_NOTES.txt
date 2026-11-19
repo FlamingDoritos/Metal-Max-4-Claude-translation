@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.35 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.36 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,23 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.36
+- Town maps (bottom screen): the Japanese letters in the shop boxes are
+  replaced by pictures, like the Metal Max 3 fan translation does:
+    宿 Inn ............... house
+    転 Transfer service .. up/down arrows
+    満 Fill-up service ... jerry can
+    改 Modification shop . gear
+    洗 Car wash .......... water drop
+    市 Tank Market ....... tank
+    掘 Rare-finds dealer . G
+    くじ Lottery ......... G
+    薬 Medicine shop ..... cross
+    塗 Paint shop ........ spray can
+    水 Amida Water seller  water drop
+  The boxes keep their original colours and frames (50 boxes on 12 maps,
+  romfs/menu/icon601-614.tex).
 
 CHANGES IN 0.9.35
 - Animated cutscenes are back to full original picture quality. The
