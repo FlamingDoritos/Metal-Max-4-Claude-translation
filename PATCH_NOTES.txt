@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.34 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.35 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,26 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.35
+- Animated cutscenes are back to full original picture quality. The
+  English subtitles are no longer burned into re-encoded videos: the game
+  now draws them itself, on top of the untouched Japanese videos, in the
+  same style as before (white Barlow Condensed with a black outline).
+- The new-game intro's English lyrics are drawn the same way, still in
+  Patrick Hand italic with a grey outline, on top of the intro with the
+  Japanese lyrics removed.
+- Subtitles also appear when cutscenes are re-watched from the game's
+  movie replay mode.
+- The patch is much smaller: about 10 MB instead of about 100 MB, because
+  the 16 subtitled videos no longer need to be shipped (the game plays its
+  own originals). Only the lyric-free intro video is still included.
+- New files: romfs/font_sub.bcfnt (the subtitle font, loaded into a font
+  slot the game leaves unused) and romfs/movie/subtitles.bin (the text and
+  timing of every subtitle line). The drawing code is in code.ips.
+- If you install over an older version, delete the old mm4-s03 ... mm4-s25
+  files from romfs/movie (everything except mm4-s01.moflex and
+  subtitles.bin), or the old burned-in subtitles will show twice.
 
 CHANGES IN 0.9.34
 - Sausage Inn: Abby's "please use the bar here!" box now reads
@@ -93,14 +113,12 @@ CHANGES IN 0.9.20
   the "No mod" option, the DLC download prompt, and tank weights now use
   a plain "t" instead of a full-width one.
 
-NOTE ON THE INTRO SONG (GitHub version)
-- The new-game intro in this repository (Translation mod/romfs/movie/
-  mm4-s01.moflex) is the repository owner's own version, with English
-  lyric subtitles they wrote and added on top of the lyric-free intro
-  from 0.9.19. The subtitles use the Patrick Hand font (SIL Open Font
+NOTE ON THE INTRO SONG
+- The English lyrics of the new-game intro were written by the repository
+  owner. Since 0.9.35 the game draws them over the lyric-free intro video
+  (romfs/movie/mm4-s01.moflex) in the Patrick Hand font (SIL Open Font
   License, see PatrickHand-OFL.txt), chosen to resemble the original
   hand-lettered Japanese lyrics.
-- The patch zips made by Claude contain the 0.9.19 intro without lyrics.
 
 CHANGES IN 0.9.19
 - New-game intro: the lyric removal no longer guesses what is behind the
