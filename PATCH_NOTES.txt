@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.44 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.45 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,17 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.45
+- The online-only download vehicles (スゴカー) are now called "Super Tanks".
+  They were called "Super Cars" before, the same name as the ordinary
+  Super Car vehicle (スーパーカー), so the tank shop list showed "Super Car"
+  twice. Changed in the shop menu, the shop dialogue and the two bar
+  rumours. The real Super Car keeps its name.
+- Doll's description of the saucer-shaped doll: the second box was split
+  in two, cutting off mid-sentence ("...produces all sorts of"). It is one
+  box again, like the Japanese: "It's a marvelous doll that produces all
+  sorts of effects when powered by Space Batteries."
 
 CHANGES IN 0.9.44
 - Squiggle Camp shop: now "This is Squiggle Camp. We stock goods for
