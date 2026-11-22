@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.48 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.49 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,12 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.49
+- Old Song cutscene: "Relax, I used the back of the blade." is now
+  "It's just the back of the blade." Ukyo only says 峰打ちさ (about one
+  second), so the shorter line matches the Japanese and can be read before
+  the next line appears.
 
 CHANGES IN 0.9.48
 - Old Song cutscene: a bystander's line had no subtitle. Between Ukyo's
