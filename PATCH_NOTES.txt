@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.51 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.52 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,22 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.52
+- Text box filling extended to the text the 0.9.51 pass did not reach:
+  Hunter Office bounty descriptions, Super Wanted descriptions, bar
+  rumors, system messages and battle messages (473 more boxes), e.g.
+  "She's the boss of the gang called the / Marde Gang that's been
+  terrorizing / this area."
+- Dialogue with item names, tank names, prices or numbers is now filled
+  too, using the longest possible name or number so nothing can run past
+  the edge. Diary and letter pages (with mid-text pauses) are filled
+  page by page.
+- Fixed boxes that 0.9.51 had wrongly joined: lines where a second
+  speaker starts ("Carlos: Sure! / Melissa: That's fine.") and headings
+  on their own line (museum exhibit names, diary dates, "Pine Room")
+  are back on separate lines.
+- Only spaces and line breaks moved; no wording changed.
 
 CHANGES IN 0.9.51
 - Dialogue re-flowed to use the full width of the text box: 8,560 boxes in
