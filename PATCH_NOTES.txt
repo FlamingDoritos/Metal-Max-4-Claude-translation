@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.55 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.56 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,12 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.56
+- Shop prompts now flow too ("I'll buy 1 Rocket Firework for 3G. Is that
+  okay?", "Shotgun, eh? That'll be 300G. Is that okay?"), along with about
+  280 similar lines with names or prices (repairs, mods, rentals, bounties,
+  storage) that 0.9.55 had wrongly treated as choice menus.
 
 CHANGES IN 0.9.55
 - The game now wraps text itself (new code in code.ips): when a message
