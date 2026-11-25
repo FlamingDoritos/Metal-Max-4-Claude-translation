@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.58 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.59 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,15 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.59
+- Skill descriptions use the full width of their box (measured from
+  screenshots) and no longer leave one word alone on the last line
+  (159 re-flowed), e.g. Mega HP Boost "...in spare time to raise / max HP
+  by 3%.", Typhoon Chop "...at anything in reach / for 1 turn. More uses
+  as the level rises!", Fire Kabuki "...gasoline and breathes / fire at
+  foes. Can hit flying foes too.", Iron Wall Mode "...dodges, and counters
+  / at once.", Maiden's Wrath, Big Drive Lv Up, Weakpoint Shot.
 
 CHANGES IN 0.9.58
 - i-Goggles description: the first sentence is on its own line again
