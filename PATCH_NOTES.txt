@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.56 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.57 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,17 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.57
+- Shop equip menu for a character with no weapon: "Weapon1/2/3" is now
+  "Weapon 1", "Weapon 2", "Weapon 3".
+- Item and skill descriptions now fill their box (about 2,350
+  descriptions re-flowed), e.g. i-Goggles: "...They have all kinds of
+  features useful on your adventure.", Slimy Cells "Edible once
+  detoxed;", Fish Meat "Can also", Crab Meat "crab monster's shell.",
+  Mojo Potato "that grows well". Lines stay within the width the
+  Japanese descriptions already use, so they fit every screen that shows
+  them.
 
 CHANGES IN 0.9.56
 - Shop prompts now flow too ("I'll buy 1 Rocket Firework for 3G. Is that
