@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.54 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.55 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,19 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.55
+- The game now wraps text itself (new code in code.ips): when a message
+  contains an item, tank, monster or character name, the line breaks are
+  placed using the real width of that name, so short names no longer
+  leave big gaps. Example: "Got Thick Soles! Put Thick Soles in / the gear
+  bag!". Long names still wrap safely inside the box, names are never split
+  across lines (spaces inside names are non-breaking), and the third line
+  still stops short of the arrow.
+- About 3,200 dialogue and system messages with names in them were turned
+  into flowing text for this. Lines without names keep their fixed layout;
+  any line that would be too wide for the box is also wrapped now.
+- Battle-window system messages keep their fixed layout.
 
 CHANGES IN 0.9.54
 - Bar drink scene (Old Song and other bars): "Gulp gulp gulp..." is now
