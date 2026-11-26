@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.64 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.65 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,17 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.65
+- Samantha's first greeting at her camp now names her "Samantha"
+  ("Welcooome~♡! To Samantha's camp!"), like every other line.
+  Note: the original Japanese script calls her "Grandma" (グランマ) in
+  this one box only, then switches to "Samantha" from the next box on.
+  The map ("Samantha's Camp"), the quest log and the game's NPC name
+  list all use Samantha, and "Grandma" appears nowhere else in the
+  game, so it looks like a leftover from an earlier draft of the
+  script. (She also shares her model with one of her daughters, so
+  she may not be that old anyway.)
 
 CHANGES IN 0.9.64
 - Samantha (Grandma) at the women's camp: her drawn-out "~n" endings
