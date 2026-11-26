@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.67 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.68 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,19 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.68
+- Tank part info panels (weapons, C-Units, engines, and the
+  combination screen): the stat values were placed for the short
+  Japanese labels, so "Defense", "Weight" and "Evade%" ran into their
+  numbers. The values are now moved right so every label has room.
+- Weapon type line is shorter so it no longer runs into "Status":
+  "Fixed Wpn (S-E)(Long Range)" is now "Fixed S-E (Long Range)", and
+  the same for Fixed MG / Fixed Cannon. Normal weapons show
+  "MG (Mid Range)", "S-E (Long Range)", etc.
+- MG-type weapons (e.g. 9mm MG) showed the untranslated type name
+  (Japanese "kijuu"); it now says "MG".
+- Tow menu: the untranslated "Don't Tow" option is now translated.
 
 CHANGES IN 0.9.67
 - Jessica's letter to her father: "Jessica is going to be happy" is now
