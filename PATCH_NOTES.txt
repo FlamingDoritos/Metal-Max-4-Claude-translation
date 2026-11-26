@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.60 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.61 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,19 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.61
+- Old Song bar, red flower legend: the two half-boxes are one box now
+  ("They say if you wear a red flower that blooms in the desert in your
+  hair, you'll be happy.").
+- Bike mods (Sasha): the untranslated first option is now "No mod", and
+  the weapon name in the "Hole 1:" header is moved right so it no
+  longer runs into the label.
+- Vehicle stats: "Trait:" is now "Trait :" like the Slot/Coat labels, so
+  the row lines up with the rest.
+- Camp sales ranking: "1位." is now "1.".
+- Desert Camp: Masahi's and Oswald's shouts are on separate lines, and the
+  Kokohore Well story is one box instead of two.
 
 CHANGES IN 0.9.60
 - Old Song, Ukyo's first meeting: "...Which means" is now "...Which
