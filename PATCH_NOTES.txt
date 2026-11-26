@@ -1,6 +1,6 @@
 Metal Max 4: Gekkou no Diva - English Translation Patch (work in progress)
 ==========================================================================
-Version: 0.9.65 (unofficial fan translation) - 100% of the game's text strings
+Version: 0.9.66 (unofficial fan translation) - 100% of the game's text strings
 Game:    Metal Max 4: Gekkou no Diva (Japan), 3DS, Title ID 00040000000AFD00
 
 This is a LayeredFS mod: it does not modify your ROM file. The folder
@@ -16,6 +16,15 @@ WHAT'S TRANSLATED
 - The in-game Guide: every quest objective and quest description.
 - WANTED monster info, bar rumors, Hunter Office special requests,
   quest titles, rental-tank descriptions, encounter-area names.
+
+CHANGES IN 0.9.66
+- Lines that contain the hero's name now wrap properly at runtime (23
+  boxes). They were missed by the earlier flow pass, so they kept hard
+  line breaks and could leave a single word alone on a line (e.g.
+  Abby's scenes in the Sausage Inn, the Jeanne scenes, the letter
+  carrier, Sasoristan, Bergman).
+- Abby (Sausage Inn): "Sleep with your belly out and you'll get a
+  tummy ache." now fits in two lines.
 
 CHANGES IN 0.9.65
 - Samantha's first greeting at her camp now names her "Samantha"
